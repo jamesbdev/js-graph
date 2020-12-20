@@ -1,12 +1,5 @@
 const ctx = document.getElementById('myChart');
-// const myBarChart = new Chart(ctx, {
-//     type: 'horizontalBar',
-//     data: [70.16, 64.55, 53.45, 49.65, 47.97, 41.21, 31.59, 25.26, 22.33, 17.67],
-//     options: {
 
-//     }
-// });
-//example
 var myChart = new Chart(ctx, {
     type: 'horizontalBar',
     data: {
