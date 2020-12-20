@@ -3,7 +3,6 @@ const ctx = document.getElementById('myChart');
 var myChart = new Chart(ctx, {
     type: 'horizontalBar',
     data: {
-        
         labels: ['UK', 'Peru', 'Chile', 'US', 'Brazil', 'Mexico', 'Bolivia', 'Columbia', 'Iran', 'South Africa'],
         datasets: [{
             label: 'Death per 100,000 habitants',
